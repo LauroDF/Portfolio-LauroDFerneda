@@ -88,13 +88,12 @@ a {
     border-radius: 5px;
 }
 
-/* Estilos para a animação de digitação */
 .escrita {
     white-space: nowrap;
-    overflow: hidden; /* Esconde o texto que ainda não foi "digitado" */
-    border-right: 2px solid rgb(143, 196, 236); /* Cursor de digitação */
+    overflow: hidden;
+    border-right: 2px solid rgb(143, 196, 236);
     animation: escrita 1.50s steps(10, end), blink-caret 0.75s step-end infinite;
-    display: inline-block; /* Permite que a animação funcione corretamente */
+    display: inline-block;
     text-align: center;
 }
 
